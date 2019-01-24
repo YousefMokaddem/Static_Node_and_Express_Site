@@ -1,0 +1,11 @@
+{
+    "projects" : [{
+        "id": "0",
+        "project_name": "example",
+        "description": "example",
+        "technologies": ["a", "b"],
+        "live_link": "github pages link",
+        "github_link": "repo link",
+        "image_urls": ["url1","url2"]
+        }]
+}
