@@ -46,7 +46,7 @@ a:hover{
   color: #111;
 }
 
-.image{
+.image, .image_container{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -54,6 +54,16 @@ a:hover{
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+}
+
+.image_container{
+  height: 25vw;
+  width: 100%;
+  transition-duration: 350ms;
+}
+a .image_container:hover{
+  transform: scale(1.075);
+  transition-duration: 350ms;
 }
 
 .portfolio-me{
