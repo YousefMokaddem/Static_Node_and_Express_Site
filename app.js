@@ -7,7 +7,6 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res)=>{
     res.locals.projects = projects;
-    console.log(res.locals.projects);
     res.render('index');
 });
 
