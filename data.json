@@ -1,11 +1,69 @@
 {
-    "projects" : [{
+    "projects" : [
+        {
         "id": "0",
-        "project_name": "example",
-        "description": "example",
-        "technologies": ["a", "b"],
+        "project_name": "Random Quote Generator",
+        "description": "A random quote generator",
+        "technologies": ["html", "css", "javascript"],
         "live_link": "github pages link",
         "github_link": "repo link",
-        "image_urls": ["url1","url2"]
-        }]
+        "image_urls": [
+            "/static/images/project0img1.png",
+            "/static/images/project0img2.png",
+            "/static/images/project0img3.png"
+        ]
+        },
+        {
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "A searchable index of students that is dynamically paginated.",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "github pages link",
+            "github_link": "repo link",
+            "image_urls": [
+                "/static/images/project1img1.png",
+                "/static/images/project1img2.png",
+                "/static/images/project1img3.png"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "A registration form for a fictional conference with form validation.",
+            "technologies": ["html", "css", "javascript", "jquery"],
+            "live_link": "github pages link",
+            "github_link": "repo link",
+            "image_urls": [
+                "/static/images/project2img1.png",
+                "/static/images/project2img2.png",
+                "/static/images/project2img3.png"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Game Show App",
+            "description": "A javascript phrase guessing game. The user can use the on screen keyboard or their own keyboard.",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "github pages link",
+            "github_link": "repo link",
+            "image_urls": [
+                "/static/images/project3img1.png",
+                "/static/images/project3img2.png",
+                "/static/images/project3img3.png"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Public Api Requests",
+            "description": "A fictional employee directory populated using random user api",
+            "technologies": ["html", "css", "javascript", "Ajax"],
+            "live_link": "github pages link",
+            "github_link": "repo link",
+            "image_urls": [
+                "/static/images/project4img1.png",
+                "/static/images/project4img2.png",
+                "/static/images/project4img3.png"
+            ]
+        }
+    ]
 }
