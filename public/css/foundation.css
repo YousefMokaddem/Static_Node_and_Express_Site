@@ -2500,12 +2500,12 @@ ul.no-bullet, ol.no-bullet {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #1779ba;
+  background-color: #342d2a;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #14679e;
+    background-color: #342d2a;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -5001,7 +5001,7 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #2d343b;
   color: #fefefe;
   display: -ms-flexbox;
   display: flex;

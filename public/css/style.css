@@ -1,6 +1,11 @@
-
+body{
+  background-color: #f3eee8;
+}
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+h1,h2,h3,h4,h5{
+  color:#2d343b;
 }
 
   h5{
@@ -22,6 +27,9 @@ h1,h2,h3,h4,h5,p{
     color: #666;
   }
 
+  .auto h5{
+    color:	#f3eee8;
+  }
 .round{
   border-radius: 5px;
 }
@@ -31,11 +39,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #635751;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #342d2a;
 }
 
 a{
@@ -57,7 +65,7 @@ a:hover{
 }
 
 .image_container{
-  height: 25vw;
+  padding-top: 100%; /*used to maintain aspect ration when screen size changes*/
   width: 100%;
   transition-duration: 350ms;
 }
@@ -68,7 +76,7 @@ a .image_container:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #2d343b;
   color: #fff;
   box-shadow: none !important;
 }
