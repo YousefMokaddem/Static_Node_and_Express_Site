@@ -1,4 +1,6 @@
 # Static_Node_and_Express_Site
+The app can be launched by calling "npm start" from the root directory. There is a procfile present because I have deployed the site to heroku(https://nameless-lowlands-47850.herokuapp.com/).
+
 
 style changes{
     removed the max width property of the grid-container class.
