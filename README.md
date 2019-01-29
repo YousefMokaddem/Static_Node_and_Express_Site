@@ -1,5 +1,5 @@
 # Static_Node_and_Express_Site
-The app can be launched by calling "npm start" from the root directory. There is a procfile present because I have deployed the site to heroku(https://nameless-lowlands-47850.herokuapp.com/).
+The app can be launched by calling "npm start" from the root directory and navigating to localhost:4000 in your web browser. There is a procfile present because I have deployed the site to heroku(https://nameless-lowlands-47850.herokuapp.com/).
 
 
 style changes:
